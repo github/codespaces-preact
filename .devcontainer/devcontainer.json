@@ -11,6 +11,7 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
+        "src/routes/home/index.js",
         "src/components/app.js"
       ]
     }
