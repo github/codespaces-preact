@@ -1,0 +1,23 @@
+{
+  "postAttachCommand": {
+    "server": "npm run dev",
+  },
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "src/components/app.js"
+      ]
+    }
+  },
+  "onCreateCommand": "npm install",
+  "postCreateCommand": "",
+  "hostRequirements": {
+    "cpus": 4
+  }
+}
