@@ -3,7 +3,7 @@
     "server": "npm run dev",
   },
   "portsAttributes": {
-    "3000": {
+    "8080": {
       "label": "Application",
       "onAutoForward": "openPreview"
     }
