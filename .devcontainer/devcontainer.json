@@ -1,12 +1,12 @@
 {
-  "postAttachCommand": {
-    "server": "npm run dev",
+  "hostRequirements": {
+    "cpus": 4
   },
-  "portsAttributes": {
-    "8080": {
-      "label": "Application",
-      "onAutoForward": "openPreview"
-    }
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "npm install",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "server": "npm run dev"
   },
   "customizations": {
     "codespaces": {
@@ -16,9 +16,10 @@
       ]
     }
   },
-  "onCreateCommand": "npm install",
-  "postCreateCommand": "",
-  "hostRequirements": {
-    "cpus": 4
+  "portsAttributes": {
+    "8080": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
   }
 }
