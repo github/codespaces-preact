@@ -13,7 +13,7 @@
     "codespaces": {
       "openFiles": [
         "src/routes/home/index.js",
-        "src/components/index.js"
+        "src/components/header/index.js"
       ]
     }
   },
