@@ -10,21 +10,16 @@ Everything you do here is contained within this one codespace. There is no repos
 
 ## CLI Commands
 
-``` bash
-# install dependencies
+```bash
+# Install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# Start a development server at localhost:5173
 npm run dev
 
-# build for production with minification
+# Create a production build
 npm run build
 
-# test the production build locally
-npm run serve
-
-# run tests with jest and enzyme
-npm run test
+# Preview your production build locally at localhost:5173
+npm run preview
 ```
-
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
