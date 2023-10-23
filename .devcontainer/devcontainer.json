@@ -12,16 +12,15 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "src/index.js",
-        "src/routes/home/index.js"
+        "src/index.jsx"
       ]
     }
   },
   "portsAttributes": {
-    "8080": {
+    "5173": {
       "label": "Application",
       "onAutoForward": "openPreview"
     }
   },
-  "forwardPorts": [8080]
+  "forwardPorts": [5173]
 }
